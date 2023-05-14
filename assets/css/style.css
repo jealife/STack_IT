@@ -13,6 +13,15 @@ body {
   color: #444444;
 }
 
+body::-webkit-scrollbar {
+    width: 0.2rem;
+    background-color: #f6fcff;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #140959;
+}
 
 #t 
 {
